@@ -12,6 +12,10 @@ p {
   display: block;
 }
 
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 .video-preview{
   vertical-align: top;
   width: 300px;
@@ -38,7 +42,6 @@ p {
 }
 
 .channel-picture {
-  display: inline-block;
   width: 40px;
   vertical-align: top;
   margin-top: 0;
@@ -48,8 +51,6 @@ p {
 }
 
 .channel-text {
-  display: inline-block;
-  width: 200px;
   font-family: Roboto, Arial;
 }
 
