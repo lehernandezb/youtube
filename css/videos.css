@@ -3,6 +3,10 @@
   margin-bottom: 8px;
 }
 
+.thumbnail-row {
+  position: relative;
+}
+
 
 .video-info-grid{
   display: grid;
@@ -53,5 +57,22 @@
   row-gap: 40px;
   padding-top: 80px;
   padding-left: 80px;
+  padding-bottom: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.video-time {
+  color: white;
+  background-color: black;
+  position: absolute;
+  right: 5px;
+  bottom: 16px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
 }
