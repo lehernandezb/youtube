@@ -41,9 +41,7 @@
   cursor: pointer;
 }
 
-.channel-text {
-  font-family: Roboto, Arial;
-}
+
 
 .profile-pic {
   width: 100%;
@@ -86,12 +84,8 @@
   position: absolute;
   right: 5px;
   bottom: 16px;
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   border-radius: 2px;
 }
