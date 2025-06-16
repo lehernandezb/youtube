@@ -6,7 +6,22 @@
 }
 
 .search-bar{
-    font-size: 20px;
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Roboto, Arial;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
 }
 
 .left-section {
@@ -17,7 +32,6 @@
 }
 
 .middle-section {
-    background-color: lightpink;
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
