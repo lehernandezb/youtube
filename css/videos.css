@@ -50,6 +50,7 @@
   border-radius: 100%;
 }
 
+
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -59,6 +60,24 @@
   padding-left: 80px;
   padding-bottom: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .video-time {
