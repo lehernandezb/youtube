@@ -19,6 +19,11 @@
 
 }
 
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+
 .search-bar::placeholder {
     font-family: Roboto, Arial;
     font-size: 16px;
@@ -57,10 +62,24 @@
 
 .search-button {
     height: 40px;
-    width: 64px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
 }
 
 .voice-search-button {
     height: 40px;
     width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+
+.voice-search-icon {
+    height: 24px;
+    margin-top: 4px;
 }
